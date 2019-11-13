@@ -797,6 +797,7 @@ padding-left: 6%;
     padding-left: 2%;
     color: #9B9B9B;
     font-size: 7px;
+    margin-right: -50;
 }
 .firstparentdiv{
     flex-direction: column;
