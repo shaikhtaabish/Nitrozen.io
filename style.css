@@ -672,6 +672,7 @@ a:hover {
     font-weight: bold;
     color: #36CC9B;
     cursor: pointer;
+    outline: none;
 }
 
 .buttonsubscribe:hover {
@@ -1306,7 +1307,8 @@ a:hover {
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
-            margin-top: 3%;
+        margin-top: 3%;
+        outline: none;
     }
     
     .last223 {
