@@ -35,7 +35,13 @@ a{
 .logo55{
    width:auto;
     height:420px;
-    padding-right: 1%;
+    padding-right: 9%;
+}
+.logo{
+   width:auto;
+    height:420px;
+    padding-right: 9%;
+    max-width: 1400px;
 }
 .header ul{
     margin: 0
@@ -373,7 +379,7 @@ a:hover {
 
    .firstparentdiv {
         display: flex;
-        padding-top: 5%;
+        padding-top: 0%;
         width: 100%;
         max-width: 1400px;
         background-color: #FFFFFF;
