@@ -32,7 +32,11 @@ a{
     left: 0;
     z-index: 1030;
 }
-
+.logo55{
+   width:auto;
+    height:420px;
+    padding-right: 1%;
+}
 .header ul{
     margin: 0
     padding:0;
@@ -45,6 +49,7 @@ a{
 .header ul a{
     display: block;
     padding:20px;
+    padding-left: 6px;
     text-decoration: none;
 }
 
@@ -54,13 +59,18 @@ a{
     font-size:2em;
     padding: 10px 20px;
 }
+.nitrozenlogo{
+    height=35px;
+    padding-top: 5px;
+    padding-left: 12%;
+    }
 .header .menu{
     clear:both;
     max-height:0;
     transition:max-height .2s ease-out;
 }
 .header .menu-icon{
-    padding: 28px 20px;
+    padding: 30px 11px;
     position:relative;
     float: right;
     cursor: pointer;
@@ -942,11 +952,44 @@ a:hover {
     width: 100%;
     padding-top: 0%;
 }
-    
+.logo55 {
+    width: auto;
+    height: 200px;
+    padding-right: 0%;
+    padding-left: 11%;
+}
 
+.nitrozenlogo{
+    height:35px;
+    width: auto;
+    padding-top: 14px;
+    padding-left: 0%;
+    }
 
-  
-    
+    .last301 {
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+ .last302 {
+    text-decoration: none;
+    margin-right: 15px;
+}
+ .last303 {
+    text-decoration: none;
+    margin-right: 15px;
+}
+ .last304 {
+    text-decoration: none;
+    margin-right: 15px;
+}
+.last305 a {
+    color: #5C6BDD !important;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.89px;
+} 
     
     
     
@@ -1077,7 +1120,7 @@ a:hover {
         line-height: 28px;
         color: #41434C;
         padding-bottom: 2%;
-        padding-top: 10%;
+        padding-top: 2%;
         padding-right: 0;
         text-align: center;
     }
@@ -1157,9 +1200,9 @@ a:hover {
         background-color: #FFFFFF;
     }
     .logo {
-        height: 290px;
-        width: 290px;
-        padding-left: 10%;
+        height: 200px;
+        width: auto;
+        padding-left: 7%;
     }
     .content2-head {
         color: #41434C;
@@ -1169,6 +1212,7 @@ a:hover {
         line-height: 24px;
         text-align: center;
         padding-bottom: 2%;
+        margin-top: 6%;
     }
     .content2-paragraph {
         color: #41434C;
@@ -1217,12 +1261,12 @@ a:hover {
         margin-left: -2;
     }
     .button12 {
-        color: #fff;
-        border-radius: 3px;
-        background-color: #36CC9B;
-        font-size: 18px;
-        font-weight: bold;
-    }
+    color: #fff;
+    border-radius: 3px;
+    background-color: #36CC9B;
+    font-size: 18px;
+    font-weight: bold;
+}
     .parentboldtext {
         font-size: 22px;
         font-weight: bold;
@@ -1257,13 +1301,14 @@ a:hover {
         background-color: #FFFFFF;
         border: 1px solid #36CC9B;
         height: 48px;
-        width: 200px;
+        width: 342px;
         border-radius: 3px;
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
             margin-top: 3%;
     }
+    
     .last223 {
         color: #9B9B9B;
         font-size: 12px;
@@ -1319,6 +1364,7 @@ a:hover {
         padding-top: 1%;
         color: #9B9B9B;
         font-size: 12px;
+        padding-right: 0px;
     }
     .firstparentdiv {
         flex-direction: column-reverse;
@@ -1346,16 +1392,13 @@ a:hover {
     .secoundbottomc {
         flex-direction: column;
     }
-    .logo {
-        height: 200px;
-        width: auto;
-    }
+
     .input-group {
         display: contents;
         padding: 1%;
     }
     .fynd {
-        width: 70;
+        width: 90;
         height: auto;
         padding-left: 3%;
         padding-right: 2%;
