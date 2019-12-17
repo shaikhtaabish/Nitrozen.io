@@ -61,7 +61,7 @@ a{
 }
 .nitrozenlogo{
     height=35px;
-    padding-top: 0px;
+    padding-top: 1px;
     padding-left: 12%;
     }
 .header .menu{
@@ -84,7 +84,9 @@ a{
     position: relative;
     transition:background .2s ease-out;
 }
-
+.simple-subscription-form{
+    padding-left: 1px;
+}
 .header .menu-icon .nav-icon:before{
     background: #333;
     content:"";
@@ -368,12 +370,14 @@ a:hover {
 
 /*rectangle01*/
 
-.firstparentdiv {
-    display: flex;
-    width: 100%;
-    max-width: 1280px;
-    background-color: #FFFFFF;
-}
+
+   .firstparentdiv {
+        display: flex;
+        padding-top: 5%;
+        width: 100%;
+        max-width: 1400px;
+        background-color: #FFFFFF;
+    }
 
 .content-1-2 {
     padding-left: 9%;
@@ -474,7 +478,9 @@ a:hover {
     text-align: center;
     margin-top: 6%;
     padding-bottom: 2%;
+     max-width: 1400px;
 }
+
 
 .content2-paragraph {
     color: #41434C;
@@ -485,6 +491,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    max-width: 1400px;
 }
 
 /*rectangle2endhere*/
@@ -564,6 +571,7 @@ a:hover {
     padding-right: 33px;
     padding-left: 7%;
     padding-right: 7%;
+    max-width: 1400px;
 }
 
 .loggoo {
@@ -601,6 +609,7 @@ a:hover {
 .watchbutton440 {
     text-align: center;
     padding-top: 5%;
+    max-width: 1400px;
 }
 
 .parent-div3 {
@@ -608,6 +617,7 @@ a:hover {
     padding-top: 5%;
     padding-right: 7%;
     padding-left: 7%;
+    max-width: 1400px;
 }
 
 .button12 {
@@ -650,7 +660,7 @@ a:hover {
 
 .simple-subscription-form {
     color: #fefefe;
-    padding: 1rem;
+    padding-top: 20px;
     border-radius: 0;
     padding-left: 1px;
 }
@@ -672,7 +682,6 @@ a:hover {
     font-weight: bold;
     color: #36CC9B;
     cursor: pointer;
-    outline: none;
 }
 
 .buttonsubscribe:hover {
@@ -734,6 +743,7 @@ a:hover {
 .secondbottom1 {
     display: flex;
     padding-top: 8%;
+    max-width: 1400px;
 }
 
 .footerbottom300 {
@@ -862,6 +872,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
+    max-width: 1400px;
 }
 
 .footerletter {
@@ -953,6 +964,16 @@ a:hover {
     width: 100%;
     padding-top: 0%;
 }
+.simple-subscription-form {
+    color: #fefefe;
+    padding-top: 20px;
+    border-radius: 0;
+    max-width: 96%;
+    color: #fefefe;
+    border-radius: 0;
+    margin: 7px;
+}
+
 .logo55 {
     width: auto;
     height: 200px;
@@ -992,39 +1013,7 @@ a:hover {
     letter-spacing: 0.89px;
 } 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     .footerbottom300 {
         display: flex;
@@ -1193,28 +1182,13 @@ a:hover {
         text-align: center;
         padding-top: 25px;
     }
-    .firstparentdiv {
-        display: flex;
-        padding-top: 5%;
-        width: 100%;
-        max-width: 1280px;
-        background-color: #FFFFFF;
-    }
+ 
     .logo {
         height: 200px;
         width: auto;
         padding-left: 7%;
     }
-    .content2-head {
-        color: #41434C;
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 0.24px;
-        line-height: 24px;
-        text-align: center;
-        padding-bottom: 2%;
-        margin-top: 6%;
-    }
+  
     .content2-paragraph {
         color: #41434C;
         font-size: 12px;
@@ -1307,8 +1281,7 @@ a:hover {
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
-        margin-top: 3%;
-        outline: none;
+            margin-top: 3%;
     }
     
     .last223 {
@@ -1445,6 +1418,18 @@ a:hover {
 }
 .simple-subscription-form {
     color: #fefefe;
-    padding: 1rem;
+   
     border-radius: 0;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+
+
+
+
+
+
 }
