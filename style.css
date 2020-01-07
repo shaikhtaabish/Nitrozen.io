@@ -31,6 +31,8 @@ a{
     right: 0;
     left: 0;
     z-index: 1030;
+    justify-content: center;
+    display: flex;
 }
 .logo55{
    width:auto;
@@ -68,7 +70,7 @@ a{
 .nitrozenlogo{
     height=35px;
     padding-top: 1px;
-    padding-left: 12%;
+    padding-left: 0%;
     }
 .header .menu{
     clear:both;
@@ -145,7 +147,6 @@ background: transparent;
         clear:none;
         float:right;
         max-height: none;
-        padding-right: 13%;
     }
     .header .menu-icon{
         display: none;
@@ -247,6 +248,10 @@ a:hover {
 .nitrozen-header-logo {
     padding: 0 20px;
     padding-top: 0.6%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .nitrozen-menu-container {
@@ -750,6 +755,7 @@ a:hover {
     display: flex;
     padding-top: 8%;
     max-width: 1400px;
+    width: 100%;
 }
 
 .footerbottom300 {
@@ -879,6 +885,7 @@ a:hover {
     justify-content: space-between;
     background-color: #FFFFFF;
     max-width: 1400px;
+    width: 100%;
 }
 
 .footerletter {
