@@ -5,22 +5,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.5.3/dist/sweetalert2.all.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://raw.githubusercontent.com/shaikhtaabish/tThennitrozzenk790/master/tablogo.png" type="image/x-icon">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
     <div id="load"></div>
 
-   <header class="header">
-            <div class="nitrozen-header-logo">
-                <a href="https://nitrozen.io/">
+    <header class="header">
+        <div class="nitrozen-header-logo">
+            <a href="https://nitrozen.io/">
                     <img src="logo.png" class="nitrozenlogo" >
                 </a>
-            
+
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
             <ul class="menu">
@@ -29,14 +29,14 @@
                 <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#build-for-scale">Build</a></li>
                 <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation"> Resources</a></li>
             </ul>
-        </header>
-        
-        <label for="blah"></label>
-        <input type="checkbox" id="blah">
-</div>
+    </header>
+
+    <label for="blah"></label>
+    <input type="checkbox" id="blah">
+    </div>
 
 
-         
+
 
     <div id="contents">
         <div class="firstparentdiv">
@@ -53,11 +53,11 @@
                     <div class="watchbutton">
                         <a href="https://app.gitbook.com/@fynd/s/workspace/" class="button">Get Started</a>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="part0001" data-aos="fade-up">
-                <img class="logo55" data-aos="fade-up" src="cover1.png"/>
+                <img class="logo55" data-aos="fade-up" src="cover1.png" />
             </div>
         </div>
 
@@ -229,16 +229,18 @@
                             <span class="input-group-label">
         <i class="fa fa-envelope"></i>
       </span>
-      <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd3YPCwuFFUHtj8-5YCazGEMMSqNe-xkuKZ0I2UayQ4tcogoQ/formResponse" method="post">
-      <input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" required="" colors="yellow" name="entry.1556369182" onkeyup="lettersOnly(This)">
-       <!--<input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" colors="yellow" required>-->
-       <button class="buttonsubscribe" onclick="popUp()">Subscribe</button>
-                    </form>
-                    </div>
+                            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd3YPCwuFFUHtj8-5YCazGEMMSqNe-xkuKZ0I2UayQ4tcogoQ/formResponse"
+                                method="post">
+                                <input class="input-group-field" id="emailAddress" type="text" placeholder="For eg: abc@gmail.com" required="" colors="yellow"
+                                    name="entry.1556369182">
+                                <!--<input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" colors="yellow" required>-->
+                                <button class="buttonsubscribe" onclick="checkInput()">Subscribe</button>
+                            </form>
+                        </div>
 
-                    <div class="1content3head">
+                        <div class="1content3head">
 
-                    </div>
+                        </div>
                 </div>
                 <div class="get-watch1">
                     <div class="watchbutton">
@@ -280,7 +282,7 @@
             <div class="last304">
                 <a href="https://twitter.com/GoFynd?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Faq(s)</a>
             </div>
-             <div class="last305">
+            <div class="last305">
                 <a href="https://fynd.freshdesk.com/support/solutions">ReportProblem</a>
             </div>
         </div>
@@ -313,16 +315,21 @@
         });
     </script>
     <script>
-        function popUp(){
-        //    swal("Thankyou for registering with us.", "We look forward to meeting you!", "success");
-         
-Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: 'Thank you for registering with us.',
-  showConfirmButton: false,
-  timer: 1500
-})
+        function popUp() {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Thank you for registering with us.',
+                showConfirmButton: false,
+                timer: 10000
+            })
+        }
+
+        function checkInput() {
+            var x = document.getElementById("emailAddress");
+            if (x.value.length > 0) {
+                popUp();
+            }
         }
     </script>
 </body>
@@ -339,8 +346,7 @@ Swal.fire({
                 document.getElementById('contents').style.visibility = "visible";
             }, 1000);
         }
-    }   
-    
+    }
 </script>
 
 </html>

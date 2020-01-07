@@ -197,6 +197,7 @@ background: transparent;
     top: 0;
     right: 0;
     left: 0;
+    bottom: 0;
 }
 .nitrozen-header-logo{
     height: 40px;
@@ -247,7 +248,7 @@ a:hover {
 }
 .nitrozen-header-logo {
     padding: 0 20px;
-    padding-top: 0.6%;
+    padding-top: 0.4%;
     max-width: 1400px;
     display: flex;
     justify-content: space-between;
