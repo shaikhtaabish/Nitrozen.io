@@ -1287,15 +1287,15 @@ padding: 0 5px;
     background-color: #FFFFFF;
     }
     .buttonsubscribe {
-        background-color: #FFFFFF;
+          background-color: #FFFFFF;
         border: 1px solid #36CC9B;
         height: 48px;
-        width: 342px;
+        width: 100%;
         border-radius: 3px;
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
-            margin-top: 3%;
+        margin-top: 2%;
     }
     
     .last223 {
