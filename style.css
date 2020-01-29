@@ -49,7 +49,6 @@ img.logo.aos-init.aos-animate {
     margin: 0
     padding:0;
     list-style:none;
-    overflow:hidden;
     background-color:#fff;
 
 }
@@ -100,6 +99,7 @@ img.logo.aos-init.aos-animate {
     transition:all .2s ease-out;
     top:5px;
 }
+
 .header .menu-icon .nav-icon:after{
     background: #333;
     content:"";
@@ -184,7 +184,7 @@ background: transparent;
 
 #load {
     width: 100%;
-    max-width: 1900px;
+    max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 9999;
@@ -918,7 +918,7 @@ a:hover {
 .copyright {
     color: #9B9B9B;
     font-size: 12px;
-    padding-right: 0px;
+    padding-right: 20px;
 }
 
 /*jhedbhjbhfb*/
@@ -1047,6 +1047,9 @@ img.logo.aos-init.aos-animate {
 }
 img.Fynd11 {
     margin-left: 15px;
+}
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
 }
     
     
