@@ -706,6 +706,7 @@ a:hover {
     font-weight: 400;
     padding: 12px;
     outline: none;
+    max-width: 320px;
 }
 
 /*firstparentdivendhere*/
