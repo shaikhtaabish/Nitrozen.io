@@ -31,20 +31,8 @@ a{
     right: 0;
     left: 0;
     z-index: 1030;
-    justify-content: center;
-    display: flex;
 }
-.logo55{
-   width:auto;
-    height:420px;
-    padding-right: 9%;
-}
-.logo{
-   width:auto;
-    height:420px;
-    padding-right: 9%;
-    max-width: 1400px;
-}
+
 .header ul{
     margin: 0
     padding:0;
@@ -57,7 +45,6 @@ a{
 .header ul a{
     display: block;
     padding:20px;
-    padding-left: 6px;
     text-decoration: none;
 }
 
@@ -67,18 +54,13 @@ a{
     font-size:2em;
     padding: 10px 20px;
 }
-.nitrozenlogo{
-    height:35px;
-    padding-top: 4%;
-    padding-left: 0%;
-    }
 .header .menu{
     clear:both;
     max-height:0;
     transition:max-height .2s ease-out;
 }
 .header .menu-icon{
-    padding: 30px 11px;
+    padding: 28px 20px;
     position:relative;
     float: right;
     cursor: pointer;
@@ -92,9 +74,7 @@ a{
     position: relative;
     transition:background .2s ease-out;
 }
-.simple-subscription-form{
-    padding-left: 1px;
-}
+
 .header .menu-icon .nav-icon:before{
     background: #333;
     content:"";
@@ -147,6 +127,7 @@ background: transparent;
         clear:none;
         float:right;
         max-height: none;
+        padding-right: 13%;
     }
     .header .menu-icon{
         display: none;
@@ -188,16 +169,15 @@ background: transparent;
 
 #load {
     width: 100%;
-    max-width: 1440;
+    max-width: 1900px;
     height: 100%;
     position: fixed;
     z-index: 9999;
-    background: url(loader4.gif) no-repeat center center #fff;
+    text-align: center;
+    background: url("loader4.gif") no-repeat center center #fff;
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;
-    MARGIN: AUTO;
 }
 .nitrozen-header-logo{
     height: 40px;
@@ -247,12 +227,8 @@ a:hover {
     
 }
 .nitrozen-header-logo {
-padding: 0 5px;
-    padding-top: 0.4%;
-    max-width: 1400px;
-    /* display: flex; */
-    justify-content: space-between;
-    /* width: 100%; */
+    padding: 0 20px;
+    padding-top: 0.6%;
 }
 
 .nitrozen-menu-container {
@@ -382,14 +358,12 @@ padding: 0 5px;
 
 /*rectangle01*/
 
-
-   .firstparentdiv {
-        display: flex;
-        padding-top: 0%;
-        width: 100%;
-        max-width: 1400px;
-        background-color: #FFFFFF;
-    }
+.firstparentdiv {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    background-color: #FFFFFF;
+}
 
 .content-1-2 {
     padding-left: 9%;
@@ -490,9 +464,7 @@ padding: 0 5px;
     text-align: center;
     margin-top: 6%;
     padding-bottom: 2%;
-     max-width: 1400px;
 }
-
 
 .content2-paragraph {
     color: #41434C;
@@ -503,7 +475,6 @@ padding: 0 5px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    max-width: 1400px;
 }
 
 /*rectangle2endhere*/
@@ -583,7 +554,6 @@ padding: 0 5px;
     padding-right: 33px;
     padding-left: 7%;
     padding-right: 7%;
-    max-width: 1400px;
 }
 
 .loggoo {
@@ -621,7 +591,6 @@ padding: 0 5px;
 .watchbutton440 {
     text-align: center;
     padding-top: 5%;
-    max-width: 1400px;
 }
 
 .parent-div3 {
@@ -629,7 +598,6 @@ padding: 0 5px;
     padding-top: 5%;
     padding-right: 7%;
     padding-left: 7%;
-    max-width: 1400px;
 }
 
 .button12 {
@@ -672,7 +640,7 @@ padding: 0 5px;
 
 .simple-subscription-form {
     color: #fefefe;
-    padding-top: 20px;
+    padding: 1rem;
     border-radius: 0;
     padding-left: 1px;
 }
@@ -755,8 +723,6 @@ padding: 0 5px;
 .secondbottom1 {
     display: flex;
     padding-top: 8%;
-    max-width: 1400px;
-    width: 100%;
 }
 
 .footerbottom300 {
@@ -885,8 +851,6 @@ padding: 0 5px;
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
-    max-width: 1400px;
-    width: 100%;
 }
 
 .footerletter {
@@ -978,56 +942,45 @@ padding: 0 5px;
     width: 100%;
     padding-top: 0%;
 }
-.simple-subscription-form {
-    color: #fefefe;
-    padding-top: 20px;
-    border-radius: 0;
-    max-width: 96%;
-    color: #fefefe;
-    border-radius: 0;
-    margin: 7px;
-}
-
-.logo55 {
-    width: auto;
-    height: 200px;
-    padding-right: 0%;
-    padding-left: 11%;
-}
-
-.nitrozenlogo{
-    height:35px;
-    width: auto;
-    padding-top: 14px;
-    padding-left: 0%;
-    }
-
-    .last301 {
-    text-decoration: none;
-    margin-right: 15px;
-    margin-left: 8px;
-}
- .last302 {
-    text-decoration: none;
-    margin-right: 15px;
-}
- .last303 {
-    text-decoration: none;
-    margin-right: 15px;
-}
- .last304 {
-    text-decoration: none;
-    margin-right: 15px;
-}
-.last305 a {
-    color: #5C6BDD !important;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.89px;
-} 
     
 
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     .footerbottom300 {
         display: flex;
@@ -1124,7 +1077,7 @@ padding: 0 5px;
         line-height: 28px;
         color: #41434C;
         padding-bottom: 2%;
-        padding-top: 2%;
+        padding-top: 10%;
         padding-right: 0;
         text-align: center;
     }
@@ -1196,13 +1149,27 @@ padding: 0 5px;
         text-align: center;
         padding-top: 25px;
     }
- 
-    .logo {
-        height: 200px;
-        width: auto;
-        padding-left: 7%;
+    .firstparentdiv {
+        display: flex;
+        padding-top: 5%;
+        width: 100%;
+        max-width: 1280px;
+        background-color: #FFFFFF;
     }
-  
+    .logo {
+        height: 290px;
+        width: 290px;
+        padding-left: 10%;
+    }
+    .content2-head {
+        color: #41434C;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.24px;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 2%;
+    }
     .content2-paragraph {
         color: #41434C;
         font-size: 12px;
@@ -1250,12 +1217,12 @@ padding: 0 5px;
         margin-left: -2;
     }
     .button12 {
-    color: #fff;
-    border-radius: 3px;
-    background-color: #36CC9B;
-    font-size: 18px;
-    font-weight: bold;
-}
+        color: #fff;
+        border-radius: 3px;
+        background-color: #36CC9B;
+        font-size: 18px;
+        font-weight: bold;
+    }
     .parentboldtext {
         font-size: 22px;
         font-weight: bold;
@@ -1287,17 +1254,16 @@ padding: 0 5px;
     background-color: #FFFFFF;
     }
     .buttonsubscribe {
-          background-color: #FFFFFF;
+        background-color: #FFFFFF;
         border: 1px solid #36CC9B;
         height: 48px;
-        width: 100%;
+        width: 200px;
         border-radius: 3px;
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
-        margin-top: 2%;
+            margin-top: 3%;
     }
-    
     .last223 {
         color: #9B9B9B;
         font-size: 12px;
@@ -1353,7 +1319,6 @@ padding: 0 5px;
         padding-top: 1%;
         color: #9B9B9B;
         font-size: 12px;
-        padding-right: 0px;
     }
     .firstparentdiv {
         flex-direction: column-reverse;
@@ -1381,13 +1346,16 @@ padding: 0 5px;
     .secoundbottomc {
         flex-direction: column;
     }
-
+    .logo {
+        height: 200px;
+        width: auto;
+    }
     .input-group {
         display: contents;
         padding: 1%;
     }
     .fynd {
-        width: 90;
+        width: 70;
         height: auto;
         padding-left: 3%;
         padding-right: 2%;
@@ -1432,18 +1400,6 @@ padding: 0 5px;
 }
 .simple-subscription-form {
     color: #fefefe;
-   
+    padding: 1rem;
     border-radius: 0;
-}
-
-}
-
-@media screen and (max-width: 1280px) {
-
-
-
-
-
-
-
 }
