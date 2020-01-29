@@ -247,12 +247,12 @@ a:hover {
     
 }
 .nitrozen-header-logo {
-    padding: 0 20px;
+padding: 0 5px;
     padding-top: 0.4%;
     max-width: 1400px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .nitrozen-menu-container {
