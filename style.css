@@ -985,9 +985,11 @@ a:hover {
     
 .header .menu {
     clear: none;
-    max-height: 0;
+    max-height: none;
     padding-right: 0%;
     padding-left: 0px;
+    max-width: 100%;
+    width: 100%;
 }
 
 img.logo.aos-init.aos-animate {
