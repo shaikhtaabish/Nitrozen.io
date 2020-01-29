@@ -201,7 +201,10 @@ a:hover {
 .nitrozen-header {
     width: 100%;
 }
-
+.footerlastfull{
+    width: 100%;
+    border-top: 1px black;
+}
 .nitrozen-header-container {
     margin: 0 auto;
     width: 100%;
@@ -218,7 +221,7 @@ a:hover {
 }
 .parent-logo-text{
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,6 +232,15 @@ a:hover {
 .nitrozen-header-logo {
     padding: 0 20px;
     padding-top: 0.6%;
+    WIDTH: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    padding-right: 0%;
 }
 
 .nitrozen-menu-container {
@@ -361,12 +373,12 @@ a:hover {
 .firstparentdiv {
     display: flex;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     background-color: #FFFFFF;
+    margin: auto;
 }
 
 .content-1-2 {
-    padding-left: 9%;
     width: 60%;
     padding-top: 8%;
 }
@@ -453,6 +465,8 @@ a:hover {
     font-size: 24px;
     line-height: 38px;
     text-align: center;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .content2-head {
@@ -485,7 +499,7 @@ a:hover {
     padding-top: 3%;
     border: 1px solid #E4E5E6;
     border-radius: 3px;
-    margin-left: 2%;
+    margin-right: 2%;
     flex: 1;
 }
 .box:hover {
@@ -547,13 +561,17 @@ a:hover {
     font-size: 24px;
     line-height: 38px;
     text-align: center;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .parent-div4 {
     display: flex;
-    padding-right: 33px;
-    padding-left: 7%;
-    padding-right: 7%;
+    /* padding-right: 33px; */
+    /* padding-left: 7%; */
+    /* padding-right: 7%; */
+    margin: auto;
+    max-width: 1200px;
 }
 
 .loggoo {
@@ -591,13 +609,15 @@ a:hover {
 .watchbutton440 {
     text-align: center;
     padding-top: 5%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .parent-div3 {
     display: flex;
-    padding-top: 5%;
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-top: 5%;    
+    margin: auto;
+    max-width: 1200px;
 }
 
 .button12 {
@@ -658,7 +678,7 @@ a:hover {
     width: 168px;
     border-radius: 3px;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 26px;
     font-weight: bold;
     color: #36CC9B;
     cursor: pointer;
@@ -723,6 +743,8 @@ a:hover {
 .secondbottom1 {
     display: flex;
     padding-top: 8%;
+    margin: auto;
+    max-width: 1400px;
 }
 
 .footerbottom300 {
@@ -851,6 +873,8 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
+    margin: auto;
+    max-width: 1400px;
 }
 
 .footerletter {
@@ -1400,6 +1424,5 @@ a:hover {
 }
 .simple-subscription-form {
     color: #fefefe;
-    padding: 1rem;
     border-radius: 0;
 }
