@@ -32,6 +32,18 @@ a{
     left: 0;
     z-index: 1030;
 }
+img.logo.aos-init.aos-animate {
+    width: auto;
+    /* height: 320px !important; */
+    padding-top: 5px;
+    height: 340px !important;
+}
+.logo {
+    width: auto;
+    /* height: 320px !important; */
+    padding-top: 5px;
+    height: 340px !important;
+}
 
 .header ul{
     margin: 0
@@ -40,6 +52,9 @@ a{
     overflow:hidden;
     background-color:#fff;
 
+}
+.form {
+    margin-left: 0%;
 }
 
 .header ul a{
@@ -238,7 +253,6 @@ a:hover {
 }
 .header .menu {
     clear: none;
-    float: right;
     max-height: none;
     padding-right: 0%;
 }
@@ -968,7 +982,17 @@ a:hover {
     padding-top: 0%;
 }
     
+.header .menu {
+    clear: none;
+    max-height: none;
+    padding-right: 0%;
+    padding-left: 0px;
+}
 
+img.logo.aos-init.aos-animate {
+    width: 100%;
+    padding-top: 5px;
+}
 
   
     
@@ -991,17 +1015,39 @@ a:hover {
     
     
     
+          .last305 {
+    text-decoration: none;
+    margin-right: 15px;
+}  
+       .last304 {
+    text-decoration: none;
+    margin-right: 15px;
+} 
     
+    .last301 {
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 12px;
+}
+   .last303 {
+    text-decoration: none;
+    margin-right: 15px;
+} 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    .last302 {
+    text-decoration: none;
+    margin-right: 15px;
+}
+    .nitrozen-header-logo {
+    padding: 0 8px;
+    padding-top: 0.6%;
+    WIDTH: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+img.Fynd11 {
+    margin-left: 15px;
+}
     
     
     
@@ -1009,7 +1055,7 @@ a:hover {
     
     .footerbottom300 {
         display: flex;
-        padding-left: 4%;
+        padding-left: 1%;
         padding-top: 2%;
     }
     .secondbottom1 {
@@ -1183,8 +1229,8 @@ a:hover {
     }
     .logo {
         height: 290px;
-        width: 290px;
-        padding-left: 10%;
+        width: 100%;
+        padding-left: 0%;
     }
     .content2-head {
         color: #41434C;
@@ -1277,18 +1323,22 @@ a:hover {
     border: 1px solid #D7D7D7;
     border-radius: 3px;
     background-color: #FFFFFF;
+     max-width: 100%;
     }
     .buttonsubscribe {
         background-color: #FFFFFF;
         border: 1px solid #36CC9B;
         height: 48px;
-        width: 200px;
+        width: 100%;
         border-radius: 3px;
         font-size: 14px;
         line-height: 13px;
         font-weight: bold;
             margin-top: 3%;
     }
+   .simple-subscription-form.aos-init.aos-animate{
+    margin-left: 5%;
+}
     .last223 {
         color: #9B9B9B;
         font-size: 12px;
@@ -1371,10 +1421,7 @@ a:hover {
     .secoundbottomc {
         flex-direction: column;
     }
-    .logo {
-        height: 200px;
-        width: auto;
-    }
+
     .input-group {
         display: contents;
         padding: 1%;
@@ -1408,7 +1455,7 @@ a:hover {
     }
     .footerletter {
         display: flex;
-        padding-left: 70px;
+        padding-left: 62px;
     }
 }
 
