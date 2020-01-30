@@ -985,7 +985,7 @@ a:hover {
     
 .header .menu {
     clear: none;
-    max-height: none;
+    max-height: 0;
     padding-right: 0%;
     padding-left: 0px;
     max-width: 100%;
