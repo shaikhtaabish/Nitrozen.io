@@ -5,40 +5,61 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.5.3/dist/sweetalert2.all.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://raw.githubusercontent.com/shaikhtaabish/tThennitrozzenk790/master/tablogo.png" type="image/x-icon">
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/nitrozen.webflow.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Poppins:100,200,300,regular,500,600,700,800"]
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
 </head>
 
 <body>
+
+    <div data-collapse="small" data-animation="default" data-duration="400" role="banner" class="navbar-8 w-nav">
+        <div class="container-12 w-container">
+            <a href="http://www.nitrozen.io" class="brand-20 w-nav-brand"><img src="images/logo.png" width="120" alt=""></a>
+            <nav role="navigation" class="nav-menu-7 w-nav-menu"><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#think-for-humans" target="_blank" class="nav-link-10 w-nav-link">Think</a><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#design-for-usability" target="_blank" class="nav-link-11 w-nav-link">Design</a>
+                <a href="https://app.gitbook.com/@fynd/s/workspace/foundation#build-for-scale" target="_blank" class="nav-link-11 w-nav-link">Build</a><a href="https://app.gitbook.com/@fynd/s/workspace/foundation" target="_blank" class="nav-link-11 w-nav-link">Resources</a>
+                <a href="#" class="nav-link-13 w-nav-link">Contact Us</a>
+            </nav>
+            <div class="menu-button-12 w-nav-button">
+                <a href="#" data-w-id="1db184a5-cd28-2aa4-622f-abb52f9ba4a2" class="hamburger-wrapper w-inline-block">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </a>
+            </div>
+            <div class="div-block-186-copy">
+                <div class="div-block-193"><a href="contact-us.html" class="nav-link-6 w-nav-link">Contact us</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div id="load"></div>
 
-   <header class="header">
-            <div class="nitrozen-header-logo">
-                <a href="https://nitrozen.io/">
-                    <img src="logo.png" width="auto" height="35" style=";">
-                </a>
-            
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-            <ul class="menu">
-                <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#think-for-humans">Think</a></li>
-                <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#design-for-usability">Design</a></li>
-                <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation#build-for-scale">Build</a></li>
-                <li><a href="https://app.gitbook.com/@fynd/s/workspace/foundation"> Resources</a></li>
-            </ul>
-        </header>
-
-        
-        
-        <label for="blah"></label>
-        <input type="checkbox" id="blah">
-</div>
 
 
-         
+
 
     <div id="contents">
         <div class="firstparentdiv">
@@ -55,11 +76,11 @@
                     <div class="watchbutton">
                         <a href="https://app.gitbook.com/@fynd/s/workspace/" class="button">Get Started</a>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="part0001" data-aos="fade-up">
-                <img class="logo" data-aos="fade-up" src="cover1.png"/>
+                <img class="logo" data-aos="fade-up" src="cover1.png" />
             </div>
         </div>
 
@@ -231,16 +252,16 @@
                             <span class="input-group-label">
         <i class="fa fa-envelope"></i>
       </span>
-      <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd3YPCwuFFUHtj8-5YCazGEMMSqNe-xkuKZ0I2UayQ4tcogoQ/formResponse" method="post">
-      <input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" required="" colors="yellow" name="entry.1556369182" onkeyup="lettersOnly(This)">
-       <!--<input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" colors="yellow" required>-->
-       <button class="buttonsubscribe" onclick="popUp()">Subscribe</button>
-                    </form>
-                    </div>
+                            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd3YPCwuFFUHtj8-5YCazGEMMSqNe-xkuKZ0I2UayQ4tcogoQ/formResponse" method="post">
+                                <input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" required="" colors="yellow" name="entry.1556369182" onkeyup="lettersOnly(This)">
+                                <!--<input class="input-group-field" type="text" placeholder="For eg: abc@gmail.com" colors="yellow" required>-->
+                                <button class="buttonsubscribe" onclick="popUp()">Subscribe</button>
+                            </form>
+                        </div>
 
-                    <div class="1content3head">
+                        <div class="1content3head">
 
-                    </div>
+                        </div>
                 </div>
                 <div class="get-watch1">
                     <div class="watchbutton">
@@ -253,69 +274,53 @@
             </div>
         </div>
         <div class="part001" data-aos="fade-up">
-<img class="logo" src="cover5.png"
-">
+            <img class="logo" src="cover5.png" ">
         </div>
     </div>
     </div>
-    <div class="secondbottom1">
-        <div class="fynd">
-            <a href="https://nitrozen.io/">
-                <img class="fynd" src="logo.png" /></a>
+    <div class="footer-up ">
+        <div class="div-block-68 "><a href="http://nitrozen.io " class="w-inline-block "><img src="images/logo.png " width="100 " alt=" " class="image-42 "></a>
+          <div id="w-node-cd97cdc55564-dc0dc70c " class="text-block-9-copy ">Nitrozen is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Nitrozen streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.</div>
+          <div id="w-node-cd97cdc55566-dc0dc70c " class="w-layout-grid grid-24 ">
+            <a href="http://nitrozen.io " id="w-node-cd97cdc55567-dc0dc70c " class="link-block-6 w-inline-block ">
+              <div class="text-block-67 ">Home</div>
+            </a>
+            <a id="w-node-cd97cdc5556a-dc0dc70c " href="https://angel.co/company/gofynd/jobs " target="_blank " class="link-block-9 w-inline-block ">
+              <div class="text-block-69 ">Career</div>
+            </a>
+            <a id="w-node-cd97cdc5556d-dc0dc70c " href="https://fynd.freshdesk.com/support/solutions " target="_blank " class="link-block-7 w-inline-block ">
+              <div class="text-block-70 ">Faq(s)</div>
+            </a>
+            <a id="w-node-cd97cdc55570-dc0dc70c " href="https://blog.gofynd.com/ " target="_blank " class="link-block-10 w-inline-block ">
+              <div class="text-block-69 ">Blog</div>
+            </a>
+            <a id="w-node-cd97cdc55573-dc0dc70c " href="https://fynd.freshdesk.com/support/solutions " target="_blank " class="link-block-8 w-inline-block ">
+              <div class="text-block-66 ">Report Problem</div>
+            </a>
+          </div>
         </div>
-        <div class="last223">
-            <span>Nitrozen is an adaptable system of guidelines, components, and tools that support </span>
-            <span>the best practices of user interface design. Backed by open-source code, Nitrozen </span>
-            <span>streamlines collaboration between designers and developers, and helps teams  </span>
-            <span>quickly build beautiful products.</span>
+      </div>
+      <div class="footer-down ">
+        <div class="div-block-75 ">
+          <div class="div-block-69 "><a id="w-node-bf588cd37c6f-dc0dc70c " href="http://www.fynd.com " target="_blank " class="link-block-14 w-inline-block "><img src="images/Fynd-Logo-01-01.png " width="60 " srcset="images/Fynd-Logo-01-01-p-500.png
+                500w, images/Fynd-Logo-01-01-p-800.png 800w, images/Fynd-Logo-01-01-p-1080.png 1080w, images/Fynd-Logo-01-01-p-1600.png 1600w, images/Fynd-Logo-01-01-p-2000.png 2000w, images/Fynd-Logo-01-01-p-2600.png 2600w, images/Fynd-Logo-01-01.png 3508w
+                " sizes="(max-width: 479px) 100vw, 60px " alt=" " class="image-41 "></a><a id="w-node-bf588cd37c71-dc0dc70c " href="https://fynd.freshdesk.com/support/solutions/articles/33000214398-privacy-policy " target="_blank " class="link-10-copy
+                ">Privacy</a><a id="w-node-bf588cd37c73-dc0dc70c " href=" https://fynd.freshdesk.com/support/solutions/articles/33000214399-terms-services " target="_blank " class="link-10-copy-copy ">Term</a><a id="w-node-bf588cd37c75-dc0dc70c " href="https://pulse.fynd.com/
+                " target="_blank " class="link-10-copy-copy-copy ">Sell With Fynd</a>
+            <div id="w-node-bf588cd37c77-dc0dc70c " class="text-block-64 ">MakeInIndia © 2019 Shopsense Retail Technologies</div>
+          </div>
         </div>
+      </div>
+   
 
-        <div class="footerbottom300" div data-aos="fade-up" data-aos-anchor=".other-element">
-            <div class="last301">
-                <a href="http://https://nitrozen.io/">Home</a>
-            </div>
-            <div class="last302">
-                <a href="https://angel.co/company/gofynd/jobs"> Careers</a>
-            </div>
-            <div class="last303">
-                <a href="https://blog.gofynd.com/">Blog</a>
-            </div>
-            <div class="last304">
-                <a href="https://twitter.com/GoFynd?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Faq(s)</a>
-            </div>
-             <div class="last305">
-                <a href="https://fynd.freshdesk.com/support/solutions">ReportProblem</a>
-            </div>
-        </div>
 
-    </div>
-    <div class="footerlastfull">
-    <div class="footerlast">
-        <div class="footer-image-container" style="display: flex; align-items: center;">
-            <a href="https://www.fynd.com/">
-                    <img class="Fynd11" src="fynd.png" />
-                </a>
-            <div class="footerletter">
-                <a href="https://fynd.freshdesk.com/support/solutions/articles/33000214398-privacy-policy">Privacy</a>
-                <a href="https://fynd.freshdesk.com/support/solutions/articles/33000214399-terms-services">Term</a>
-                <a href="pulse.fynd.com">Sell With Fynd</a>
-            </div>
-        </div>
-
-        <div class="copyright">
-            <span>MakeInIndia &copy; 2019 Shopsense Retail Technologies</span>
-        </div>
-    </div>
-    </div>
+  
 
 
 
 
 
-
-    </div>
-    </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init({
             offset: 150,
@@ -324,7 +329,7 @@
     </script>
     <script>
         function popUp(){
-        //    swal("Thankyou for registering with us.", "We look forward to meeting you!", "success");
+        //    swal("Thankyou for registering with us. ", "We look forward to meeting you! ", "success ");
          
 Swal.fire({
   position: 'top-end',
@@ -335,22 +340,26 @@ Swal.fire({
 })
         }
     </script>
+    <script>
+        document.onreadystatechange = function () {
+            var state = document.readyState
+            if (state == 'interactive') {
+                document.getElementById('contents').style.visibility = "hidden ";
+            } else if (state == 'complete') {
+                setTimeout(function () {
+                    document.getElementById('interactive');
+                    document.getElementById('load').style.visibility = "hidden ";
+                    document.getElementById('contents').style.visibility = "visible ";
+                }, 1000);
+            }
+        }   
+        
+    </script>
+
+      <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5eb63daef92b5855cf0dbfa3 " type="text/javascript " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+      <script src="js/webflow.js " type="text/javascript "></script>
 </body>
 
-<script>
-    document.onreadystatechange = function () {
-        var state = document.readyState
-        if (state == 'interactive') {
-            document.getElementById('contents').style.visibility = "hidden";
-        } else if (state == 'complete') {
-            setTimeout(function () {
-                document.getElementById('interactive');
-                document.getElementById('load').style.visibility = "hidden";
-                document.getElementById('contents').style.visibility = "visible";
-            }, 1000);
-        }
-    }   
-    
-</script>
+
 
 </html>
